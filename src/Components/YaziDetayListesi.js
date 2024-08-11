@@ -21,7 +21,7 @@ const YaziDetayListesi = ({ formatDate }) => {
       <p>{formatDate(yaziDetayi.createdAt)}</p>
       <p>{yaziDetayi.content}</p>
     </React.Fragment>
-  );
+  ); 
 }
 
 export default YaziDetayListesi;
